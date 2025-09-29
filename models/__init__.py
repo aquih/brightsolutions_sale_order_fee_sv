@@ -1,0 +1,1 @@
+from . import res_config, res_partner, sale_order, sale_order_template
