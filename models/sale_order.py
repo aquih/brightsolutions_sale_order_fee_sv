@@ -47,7 +47,7 @@ class SaleOrder(models.Model):
         self.order_line._compute_tax_id()
         for line in self.order_line:
             line._onchange_product_brighsolutions()
-        self.onchange_margen_total()
+        self._compute_margenes()
 
     def _check_fee_cfg_fields(self, company_id):
         if not company_id.def_percentage_fee:
