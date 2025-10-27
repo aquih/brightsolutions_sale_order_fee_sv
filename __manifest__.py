@@ -1,6 +1,6 @@
 {
     'name': 'sale_order_fee',
-    'version': '1.3',
+    'version': '1.4',
     'description': 'Calculo y control del Fee en ordenes de venta',
     'summary': 'Calculo y control del Fee en ordenes de venta',
     'license': 'LGPL-3',
